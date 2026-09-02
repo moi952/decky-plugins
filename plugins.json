@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "plugins": [
+    {
+      "id": "decky-proton-launch",
+      "name": "Proton Launch",
+      "url": "https://github.com/moi952/decky-proton-launch",
+      "icon": "https://cdn.jsdelivr.net/gh/moi952/decky-proton-launch@main/assets/games_list.jpeg",
+      "description": {
+        "en-US": "Set per-game or global Proton/DXVK/VKD3D environment variables and wrappers like MangoHud, right from Gaming Mode.",
+        "fr-FR": "Configure des variables d'environnement Proton/DXVK/VKD3D par jeu ou globales, et des wrappers comme MangoHud, directement depuis le mode Jeu.",
+        "de-DE": "Lege Proton/DXVK/VKD3D-Umgebungsvariablen pro Spiel oder global fest, sowie Wrapper wie MangoHud, direkt im Gaming Mode.",
+        "es-ES": "Configura variables de entorno Proton/DXVK/VKD3D por juego o globales, y wrappers como MangoHud, directamente desde el modo Juego.",
+        "it-IT": "Imposta variabili d'ambiente Proton/DXVK/VKD3D per gioco o globali, e wrapper come MangoHud, direttamente dalla Gaming Mode.",
+        "ja-JP": "ゲームごと、またはグローバルにProton/DXVK/VKD3D環境変数やMangoHudなどのラッパーを、ゲーミングモードから直接設定。",
+        "ko-KR": "게임별 또는 전역 Proton/DXVK/VKD3D 환경 변수와 MangoHud 같은 래퍼를 게이밍 모드에서 바로 설정하세요.",
+        "nl-NL": "Stel per-game of globale Proton/DXVK/VKD3D-omgevingsvariabelen en wrappers zoals MangoHud in, rechtstreeks vanuit Gaming Mode.",
+        "pl-PL": "Ustawiaj zmienne środowiskowe Proton/DXVK/VKD3D dla gry lub globalnie oraz wrappery jak MangoHud, bezpośrednio z trybu gry.",
+        "pt-BR": "Configure variáveis de ambiente Proton/DXVK/VKD3D por jogo ou globais, e wrappers como MangoHud, direto do modo Jogo.",
+        "pt-PT": "Configura variáveis de ambiente Proton/DXVK/VKD3D por jogo ou globais, e wrappers como o MangoHud, diretamente a partir do modo de Jogo.",
+        "ru-RU": "Настраивайте переменные окружения Proton/DXVK/VKD3D для каждой игры или глобально, а также обёртки вроде MangoHud, прямо из игрового режима.",
+        "tr-TR": "Proton/DXVK/VKD3D ortam değişkenlerini oyun bazında veya genel olarak, MangoHud gibi sarmalayıcılarla birlikte doğrudan Oyun Modu'ndan ayarla.",
+        "uk-UA": "Налаштовуйте змінні середовища Proton/DXVK/VKD3D для кожної гри або глобально, а також обгортки на кшталт MangoHud, прямо з ігрового режиму.",
+        "zh-CN": "直接在游戏模式中为单个游戏或全局设置 Proton/DXVK/VKD3D 环境变量，以及 MangoHud 等包装器。"
+      }
+    },
+    {
+      "id": "decky-apps-manager",
+      "name": "Apps Manager",
+      "url": "https://github.com/moi952/decky-apps-manager",
+      "icon": "https://cdn.jsdelivr.net/gh/moi952/decky-apps-manager@main/assets/home-with-apps-to-update.jpeg",
+      "description": {
+        "en-US": "Check for updates and install new Flatpak apps and AppImages, right from Steam's Quick Access menu.",
+        "fr-FR": "Vérifie les mises à jour et installe de nouvelles apps Flatpak et AppImages, directement depuis le menu rapide de Steam.",
+        "de-DE": "Prüfe auf Updates und installiere neue Flatpak-Apps und AppImages, direkt aus dem Steam-Schnellzugriffsmenü.",
+        "es-ES": "Comprueba actualizaciones e instala nuevas apps Flatpak y AppImages, directamente desde el menú rápido de Steam.",
+        "it-IT": "Controlla gli aggiornamenti e installa nuove app Flatpak e AppImage, direttamente dal menu rapido di Steam.",
+        "ja-JP": "Steamのクイックアクセスメニューから、Flatpakアプリ・AppImageの更新確認と新規インストールができます。",
+        "ko-KR": "Steam 빠른 접근 메뉴에서 바로 Flatpak 앱과 AppImage 업데이트를 확인하고 새로 설치하세요.",
+        "nl-NL": "Controleer op updates en installeer nieuwe Flatpak-apps en AppImages, rechtstreeks vanuit het Steam Snelle-toegangsmenu.",
+        "pl-PL": "Sprawdzaj aktualizacje i instaluj nowe aplikacje Flatpak oraz AppImage bezpośrednio z menu szybkiego dostępu Steam.",
+        "pt-BR": "Verifique atualizações e instale novos apps Flatpak e AppImages, direto do menu de acesso rápido da Steam.",
+        "pt-PT": "Verifica atualizações e instala novas apps Flatpak e AppImages, diretamente a partir do menu de acesso rápido da Steam.",
+        "ru-RU": "Проверяйте обновления и устанавливайте новые Flatpak-приложения и AppImage прямо из быстрого меню Steam.",
+        "tr-TR": "Steam Hızlı Erişim menüsünden doğrudan Flatpak uygulamalarını ve AppImage'leri güncelleyip yenilerini kur.",
+        "uk-UA": "Перевіряйте оновлення та встановлюйте нові додатки Flatpak і AppImage прямо з швидкого меню Steam.",
+        "zh-CN": "直接在 Steam 快速访问菜单中检查更新并安装新的 Flatpak 应用和 AppImage。"
+      }
+    },
+    {
+      "id": "decky-nvidia-update",
+      "name": "NVIDIA Update",
+      "url": "https://github.com/moi952/decky-nvidia-update",
+      "icon": "https://cdn.jsdelivr.net/gh/moi952/decky-nvidia-update@main/screenshots/overview.jpeg",
+      "steamOsOnly": true,
+      "description": {
+        "en-US": "Install or switch NVIDIA driver versions directly on SteamOS — no USB stick, no reinstall. SteamOS only.",
+        "fr-FR": "Installe ou change de version de pilote NVIDIA directement sur SteamOS — pas de clé USB, pas de réinstallation. SteamOS uniquement.",
+        "de-DE": "Installiere oder wechsle NVIDIA-Treiberversionen direkt auf SteamOS — kein USB-Stick, keine Neuinstallation. Nur für SteamOS.",
+        "es-ES": "Instala o cambia versiones del controlador NVIDIA directamente en SteamOS — sin USB, sin reinstalar. Solo SteamOS.",
+        "it-IT": "Installa o cambia versione del driver NVIDIA direttamente su SteamOS — niente USB, niente reinstallazione. Solo SteamOS.",
+        "ja-JP": "USB不要、再インストール不要で、SteamOS上のNVIDIAドライバーバージョンを直接インストール・切り替え。SteamOS専用。",
+        "ko-KR": "USB나 재설치 없이 SteamOS에서 바로 NVIDIA 드라이버 버전을 설치하거나 전환하세요. SteamOS 전용.",
+        "nl-NL": "Installeer of wissel NVIDIA-driverversies rechtstreeks op SteamOS — geen USB-stick, geen herinstallatie. Alleen SteamOS.",
+        "pl-PL": "Instaluj lub zmieniaj wersje sterownika NVIDIA bezpośrednio na SteamOS — bez pendrive'a, bez reinstalacji. Tylko SteamOS.",
+        "pt-BR": "Instale ou troque a versão do driver NVIDIA direto no SteamOS — sem pendrive, sem reinstalar. Somente SteamOS.",
+        "pt-PT": "Instala ou muda a versão do driver NVIDIA diretamente no SteamOS — sem pen USB, sem reinstalar. Apenas SteamOS.",
+        "ru-RU": "Устанавливайте или переключайте версии драйвера NVIDIA прямо в SteamOS — без флешки, без переустановки. Только SteamOS.",
+        "tr-TR": "USB bellek veya yeniden kurulum gerekmeden NVIDIA sürücü sürümlerini doğrudan SteamOS üzerinde kur veya değiştir. Sadece SteamOS.",
+        "uk-UA": "Встановлюйте або перемикайте версії драйвера NVIDIA прямо в SteamOS — без флешки, без перевстановлення. Лише SteamOS.",
+        "zh-CN": "无需 U 盘、无需重装，直接在 SteamOS 上安装或切换 NVIDIA 驱动版本。仅限 SteamOS。"
+      }
+    }
+  ]
+}
