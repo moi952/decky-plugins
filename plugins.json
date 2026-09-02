@@ -49,7 +49,7 @@
     },
     {
       "id": "decky-nvidia-update",
-      "name": "NVIDIA Update",
+      "name": "NVIDIA Driver Update",
       "url": "https://github.com/moi952/decky-nvidia-update",
       "icon": "https://cdn.jsdelivr.net/gh/moi952/decky-nvidia-update@main/screenshots/overview.jpeg",
       "steamOsOnly": true,
